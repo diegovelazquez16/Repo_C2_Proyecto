@@ -4,7 +4,11 @@ import MainContent from '../Organisms/MainContent';
 import Sidebar from '../Organisms/Sidebar';
 import Footer from '../Organisms/Footer';
 
+<<<<<<< HEAD
 const Home = () => {
+=======
+function Home() {
+>>>>>>> origin/main
     return (
         <div>
             <Header />
@@ -20,4 +24,8 @@ const Home = () => {
     );
 }
 
+<<<<<<< HEAD
 export default Home;
+=======
+export default Home;
+>>>>>>> origin/main

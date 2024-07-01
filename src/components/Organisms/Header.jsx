@@ -14,8 +14,13 @@ function Header() {
             </div>
             <nav>
                 <ul>
+<<<<<<< HEAD
                     <NavLink href={'/home'} text="Inicio" />
                     <NavLink href="#" text="Login" /> 
+=======
+                    <NavLink href="visual3.html" text="Inicio" />
+                    <NavLink href="login.html" text="Login" />
+>>>>>>> origin/main
                     <li><SearchInput placeholder="Buscar" /></li>
                 </ul>
             </nav>
