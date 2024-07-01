@@ -3,9 +3,10 @@ import React from "react";
 function Image_N_Title (props) {
     return ( 
         <>
-        <div className="image-n-title">
+        <div>
             <img src={props.img} alt={props.altI} className={props.class} 
-            id={props.id}/>
+            id={props.id}
+            link={props.href}/>
         </div>
         <div>
             <h2><a href={props.href}>{props.title}</a></h2>

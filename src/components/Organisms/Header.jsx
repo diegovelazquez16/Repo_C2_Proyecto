@@ -14,7 +14,7 @@ function Header() {
             </div>
             <nav>
                 <ul>
-                    <NavLink href="Header.jsx" text="Inicio" />
+                    <NavLink href={'/home'} text="Inicio" />
                     <NavLink href="#" text="Login" /> 
                     <li><SearchInput placeholder="Buscar" /></li>
                 </ul>

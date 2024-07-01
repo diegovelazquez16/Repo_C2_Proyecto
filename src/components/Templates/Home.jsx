@@ -4,7 +4,7 @@ import MainContent from '../Organisms/MainContent';
 import Sidebar from '../Organisms/Sidebar';
 import Footer from '../Organisms/Footer';
 
-function Home() {
+const Home = () => {
     return (
         <div>
             <Header />
