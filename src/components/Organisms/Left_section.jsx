@@ -4,7 +4,6 @@ import Image_N_Title from "../Molecules/Image_N_Title";
 function Left_section () {
     return (
         <>
-        <div className="clear"></div>
         <div id="left">
             <Image_N_Title
             img = "/images/intestestellar_poster.jpg"

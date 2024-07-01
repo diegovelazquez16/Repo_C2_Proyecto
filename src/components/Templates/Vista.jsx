@@ -8,12 +8,13 @@ import Footer from '../Organisms/Footer';
 function Vista () {
     return (
         <>
-       <div>
+       <div >
         <Header/>
             <main>
                 <Left_section/>
                 <Right_section/>
             </main>   
+
             <Footer/>
         </div> 
        </>
